@@ -1,8 +1,7 @@
-# chatgpt-test.py
-def some_function():
-    data = ['apple', 'banana', 'cherry']
-    for index, value in enumerate(data):
-        print(index, value)
+def loop_with_enumerate():
+    items = ['apple', 'banana', 'cherry']
+    for index, value in enumerate(items):
+        print(f'Index: {index}, Value: {value}')
 
-if __name__ == "__main__":
-    some_function()
+# Call the function to demonstrate its usage
+loop_with_enumerate()
