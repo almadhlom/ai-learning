@@ -1,7 +1,6 @@
-def loop_with_enumerate():
-    items = ['apple', 'banana', 'cherry']
-    for index, value in enumerate(items):
-        print(f'Index: {index}, Value: {value}')
+# chatgpt-test.py
 
-# Call the function to demonstrate its usage
-loop_with_enumerate()
+# Example of using enumerate to iterate with index and value
+data = ['apple', 'banana', 'cherry']
+for index, value in enumerate(data):
+    print(f"Index: {index}, Value: {value}")
