@@ -1,4 +1,3 @@
-```python
 # AI Learning Framework
 ==========================
 
@@ -84,24 +83,3 @@ The AI Learning Framework is licensed under the MIT License.
 ---------------
 
 The framework is built on top of popular AI frameworks and libraries, including TensorFlow, PyTorch, and Keras. We acknowledge the contributions of the developers and maintainers of these projects.
-
-## Python Tip: Use enumerate() for index+value in loops
-
-When iterating over a list or other iterable, it's often useful to have access to both the index and value of each item. The `enumerate()` function makes this easy. Here's an example:
-
-```python
-fruits = ['apple', 'banana', 'cherry']
-
-for i, fruit in enumerate(fruits):
-    print(f'Fruit {i+1}: {fruit}')
-```
-
-This will output:
-
-```
-Fruit 1: apple
-Fruit 2: banana
-Fruit 3: cherry
-```
-
-Note that the `enumerate()` function returns a tuple containing the index and value of each item, so we use the `for` loop to unpack this tuple into two variables, `i` and `fruit`.
