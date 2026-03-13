@@ -92,8 +92,8 @@ When iterating over a list or other iterable, it's often useful to have access t
 ```python
 fruits = ['apple', 'banana', 'cherry']
 
-for index, fruit in enumerate(fruits, start=1):
-    print(f'Fruit {index}: {fruit}')
+for i, fruit in enumerate(fruits):
+    print(f'Fruit {i+1}: {fruit}')
 ```
 
 This will output:
@@ -104,4 +104,4 @@ Fruit 2: banana
 Fruit 3: cherry
 ```
 
-Note that the `enumerate()` function returns a tuple containing the index and value of each item, so we use the `for` loop to unpack this tuple into two variables, `index` and `fruit`. The `start=1` argument is used to make the index start from 1 instead of 0.
+Note that the `enumerate()` function returns a tuple containing the index and value of each item, so we use the `for` loop to unpack this tuple into two variables, `i` and `fruit`.
