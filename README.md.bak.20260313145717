@@ -92,7 +92,6 @@ When iterating over a list or other iterable, it's often useful to have access t
 ```python
 fruits = ['apple', 'banana', 'cherry']
 
-# Use enumerate() to get index and value
 for index, fruit in enumerate(fruits, start=1):
     print(f'Fruit {index}: {fruit}')
 ```
@@ -106,7 +105,3 @@ Fruit 3: cherry
 ```
 
 Note that the `enumerate()` function returns a tuple containing the index and value of each item, so we use the `for` loop to unpack this tuple into two variables, `index` and `fruit`. The `start=1` argument is used to make the index start from 1 instead of 0.
-
-### Code Explanation
-
-The `enumerate()` function is a built-in Python function that returns an iterator that produces tuples containing the index and value of each item in the iterable. The `start` argument is used to specify the starting index. In this example, we use `enumerate(fruits, start=1)` to get the index and value of each fruit, starting from 1. We then use a `for` loop to unpack the tuple into two variables, `index` and `fruit`, and print the result.
