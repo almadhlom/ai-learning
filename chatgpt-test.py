@@ -1,4 +1,4 @@
-```python
+
 # This is a placeholder for AI experiments
 print("Hello AI! This is my first AI script.")
 
@@ -17,4 +17,3 @@ items = ["apple", "banana", "cherry"]
 # The enumerate() function returns an enumerate object, which is an iterator that produces tuples containing a count (from start which defaults to 0) and the values obtained from iterating over the sequence.
 for index, item in enumerate(items, start=1):  # default start is 0, but we're making it explicit for clarity
     print(f"Index: {index}, Value: {item}")
-```
