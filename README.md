@@ -1,14 +1,19 @@
-```python
 # AI Learning Framework
-==========================
 
 ## Overview
------------
 
 The AI Learning Framework is a comprehensive tool designed to facilitate the development and deployment of artificial intelligence models. This framework provides a structured approach to building, training, and testing AI models, making it easier for developers to create accurate and efficient AI solutions.
 
+> **Note:** The sections below describe the *intended* vision for this project. The repository today is a learning and experimentation sandbox (tips, notebooks, and collaboration workflows). Features such as a packaged `ai_learning` library are not fully implemented yet.
+
+## Repository Contents
+
+*   `experiments/` — Jupyter notebooks for data exploration, linear regression, logistic regression, and visualization (expects a local `data.csv`)
+*   `chatgpt-test.py` — small Python tip demo (`enumerate()`)
+*   `zip_function_tip.ipynb` — natural-language guide for `zip()`
+*   `.github/workflows/auto-assign.yml` — comment `/assign` on an issue to claim it
+
 ## Features
-------------
 
 ### Model Development
 
@@ -34,7 +39,6 @@ The AI Learning Framework is a comprehensive tool designed to facilitate the dev
 *   **API integration**: Developers can integrate their models with APIs to enable real-time predictions and updates.
 
 ## Getting Started
-------------------
 
 ### Prerequisites
 
@@ -44,11 +48,15 @@ The AI Learning Framework is a comprehensive tool designed to facilitate the dev
 
 ### Installation
 
-1.  Clone the repository: `git clone https://github.com/username/ai-learning.git`
-2.  Install the framework: `pip install -r requirements.txt`
-3.  Import the framework: `import ai_learning`
+1.  Clone the repository: `git clone https://github.com/almadhlom/ai-learning.git`
+2.  *(Planned)* Install the framework: `pip install -r requirements.txt`
+3.  *(Planned)* Import the framework: `import ai_learning`
+
+For the notebooks under `experiments/`, install common scientific Python packages yourself (for example: `pandas`, `scikit-learn`, `matplotlib`, `seaborn`) and provide a local `data.csv`.
 
 ### Example Use Case
+
+Illustrative example of the intended API (*not available in the repository yet*):
 
 ```python
 from ai_learning import Model
@@ -71,17 +79,16 @@ print(f'Model accuracy: {accuracy:.2f}')
 ```
 
 ## Contributing
---------------
 
 We welcome contributions from the community. If you'd like to contribute to the framework, please fork the repository and submit a pull request.
 
-## License
----------
+To claim an open issue, comment `/assign` on the issue thread.
 
-The AI Learning Framework is licensed under the MIT License.
+## License
+
+The AI Learning Framework is intended to be licensed under the MIT License.
 
 ## Acknowledgments
----------------
 
 The framework is built on top of popular AI frameworks and libraries, including TensorFlow, PyTorch, and Keras. We acknowledge the contributions of the developers and maintainers of these projects.
 
